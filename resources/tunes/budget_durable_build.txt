@@ -1,0 +1,47 @@
+# Tune for the Budget Bando Build
+
+set gyro_lpf1_static_hz = 500
+set gyro_lpf2_static_hz = 1000
+set dyn_notch_count = 2
+set dyn_notch_q = 450
+set gyro_lpf1_dyn_min_hz = 500
+set gyro_lpf1_dyn_max_hz = 1000
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set simplified_gyro_filter_multiplier = 200
+set rpm_filter_weights = 100,0,60
+set rpm_filter_fade_range_hz = 40
+
+set dterm_lpf1_dyn_min_hz = 90
+set dterm_lpf1_dyn_max_hz = 180
+set dterm_lpf1_static_hz = 90
+set dterm_lpf2_static_hz = 180
+set vbat_sag_compensation = 100
+set p_pitch = 65
+set i_pitch = 116
+set d_pitch = 54
+set f_pitch = 192
+set p_roll = 56
+set i_roll = 100
+set d_roll = 45
+set f_roll = 168
+set p_yaw = 56
+set i_yaw = 100
+set f_yaw = 168
+set angle_p_gain = 100
+set angle_feedforward = 0
+set angle_limit = 30
+set d_min_roll = 37
+set d_min_pitch = 44
+set thrust_linear = 10
+set dyn_idle_min_rpm = 30
+set simplified_master_multiplier = 140
+set simplified_d_gain = 90
+set simplified_pi_gain = 90
+set simplified_dmax_gain = 60
+set simplified_pitch_d_gain = 105
+set simplified_pitch_pi_gain = 110
+set simplified_dterm_filter_multiplier = 120
+
+# save configuration
+save
